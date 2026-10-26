@@ -1,9 +1,28 @@
-# Webinar Text2SQL
+# text2sql-agent
 
-Este proyecto consiste en la creación de un aplicación para la consulta a bases de datos relacionales con un agente. Este agente está compuesto de tres procesos:
-1. Creación de la query SQL según la consulta del usuario conocida la estructura de la base de datos.
-2. Ejecución de query creada.
-3. Devolución de la respuesta en lenguaje natural para un uso completamente conversacional con la base de datos.
+Agente que te permite interactuar con cualquier base de datos en lenguaje natural
+
+## 🎥 Vídeo del tutorial
+
+[![Ver el tutorial](https://img.youtube.com/vi/6CILJuWKVBE/maxresdefault.jpg)](https://youtu.be/6CILJuWKVBE)
+
+▶️ [Ver el tutorial en vídeo](https://youtu.be/6CILJuWKVBE)
+
+## Descripción
+
+En esta demo de nivel intermedio verás un caso de uso muy común y muy útil para equipos de software, y sobre todo para los departamentos no técnicos: un agente que te permite interactuar con cualquier base de datos en lenguaje natural. Una versión simple (y gratuita) de [askyourdatabase.com](http://askyourdatabase.com/).
+
+Yona, experto en IA, te mostrará en detalle:
+
+- La lógica para construir la query SQL a partir de lenguaje natural, según la consulta del usuario y conocida la estructura de la base de datos.
+- La lógica para ejecutar la query en la base de datos.
+- La lógica y el diseño de la respuesta en lenguaje natural para interactuar a través de una interfaz tipo ChatGPT de manera completamente conversacional.
+
+Aprenderás:
+
+- ✅ A integrar fuentes de datos externas.
+- ✅ A construir agentes con Python y LangChain.
+- ✅ A construir interfaces conversacionales con Chainlit.
 
 
 ## Estructura de carpetas
@@ -145,3 +164,15 @@ Este proyecto necesita de una base de datos SQL (MySQL, PostGres, SQLServer). La
     ```bash
     chainlit run front.py -w --port 8001
     ```
+
+---
+
+## Copyright
+
+Copyright (c) 2026 LIDR.co. Licensed under the MIT License.
+
+**English:**
+The content of this repository is part of the AI Engineering program by LIDR.co. If you want to learn AI Engineering with the pros and get more templates and resources like these, you can find all the information on the official website: https://lidr.co/ai-engineering
+
+**Español:**
+El contenido de este repositorio es parte del programa AI Engineering de LIDR.co. Si quieres aprender AI Engineering con los pros, y obtener más plantillas y recursos como estos, puedes encontrar toda la información en la página oficial: https://lidr.co/ai-engineering
